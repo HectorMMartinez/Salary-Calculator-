@@ -1,0 +1,7 @@
+﻿  calculator.cpp
+C:\Users\hevto\OneDrive\Escritorio\Proyecto\calculator\calculator\calculator.cpp(20,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\hevto\OneDrive\Escritorio\Proyecto\calculator\calculator\calculator.cpp(41,70): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\hevto\OneDrive\Escritorio\Proyecto\calculator\calculator\calculator.cpp(53,15): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\hevto\OneDrive\Escritorio\Proyecto\calculator\calculator\calculator.cpp(53,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\hevto\OneDrive\Escritorio\Proyecto\calculator\calculator\calculator.cpp(89,65): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  calculator.vcxproj -> C:\Users\hevto\OneDrive\Escritorio\Proyecto\calculator\x64\Debug\calculator.exe
