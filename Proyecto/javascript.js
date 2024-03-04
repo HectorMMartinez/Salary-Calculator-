@@ -12,7 +12,7 @@ function calculateSalaries() {
     // Calculate hourly rate
     const hourlyR8 = salarioPorHora(salary, horas);
     
-    //Calculate the salary after the extra hours and bonuses have been added
+    //Calculate the salary after the extra hours and bonuses
     salary = salary + (extHours*(hourlyR8+(hourlyR8*0.15))) + bonus;
 
     // Calculate total TSS

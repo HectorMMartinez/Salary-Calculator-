@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Payment calculator</title>
@@ -23,19 +24,19 @@
         <legend class="FormTitle">Input your:</legend>
 
         <label for="BaseSalary">Base salary:</label><br>
-        <input type="text" id="BaseSalary"  class="inputs" name="BaseSalary" value="45000"><br><br>
+        <input type="text" id="BaseSalary"  class="inputs" name="BaseSalary" placeholder="45000"><br><br>
 
         <label for="hours">Hours you work per week:</label><br>
-        <input type="text" id="hours"  class="inputs" name="hours" value="44"><br><br>
+        <input type="text" id="hours"  class="inputs" name="hours" placeholder="44"><br><br>
 
         <label for="extHours">Extra hours:</label><br>
-        <input type="text" id="extHours"  class="inputs" name="extHours" value="5"><br><br>
+        <input type="text" id="extHours"  class="inputs" name="extHours" placeholder="5"><br><br>
 
         <label for="Bonuses">Bonuses:</label><br>
-        <input type="text" id="Bonuses"  class="inputs" name="Bonuses" value="5000"><br><br>
+        <input type="text" id="Bonuses"  class="inputs" name="Bonuses" placeholder="5000"><br><br>
 
         <label for="Months">Months working:</label><br>
-        <input type="text" id="months"  class="inputs" name="months" value="36"><br><br>
+        <input type="text" id="months"  class="inputs" name="months" placeholder="12"><br><br>
     </form>
     <input type="button" onclick="calculateSalaries()" value="Calculate"></input><br><br>
     <form id="Form-Outputs">
@@ -54,7 +55,7 @@
 
         <label for="DeducidoTSS">Deducted TSS:</label><br>
         <input type="text" id="DeducidoTSS"  class="Results" readonly><br><br>
-</form>
+    </form>
 </div>
     <script defer src="javascript.js"></script>
 </body>
